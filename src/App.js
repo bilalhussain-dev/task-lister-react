@@ -7,7 +7,7 @@ import TaskForm from './components/TaskForm';
 
 function App() {
 
-  const [toggleForm, setToggleForm] = useState(true)
+  const [toggleForm, setToggleForm] = useState(false)
 
   const [tasks, setTasks] = useState([
     {id: 1, text: 'Doctors Appointment', day: '20 March 2022 at 2:00 PM', reminder: true},
